@@ -4,3 +4,13 @@
   --muted: #9ca3af;
   --accent: #06b6d4;
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: linear-gradient(180deg, var(--bg), #071021);
+  color: #e6eef8;
+}
