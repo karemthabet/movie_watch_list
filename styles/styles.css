@@ -103,3 +103,36 @@ body {
   font-size: 13px;
   color: var(--muted);
 }
+.details {
+  max-width: 900px;
+  margin: 20px auto;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+}
+
+.details img {
+  width: 320px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.details .meta {
+  line-height: 1.5;
+}
+.nav-links {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.link {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
